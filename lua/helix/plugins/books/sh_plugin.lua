@@ -30,11 +30,7 @@ ix.command.Add("BookArchives", {
 
 
 function PLUGIN:CanTransferItem(item, currentInv, oldInv)
-<<<<<<< HEAD
     if item.category == "Books" && item.data && item.data.isFrozen == true then return false end
-=======
-    if item.category == "Books" && item.data.isFrozen == true then return false end
->>>>>>> bdea84d9f05edb489cbf80cafea60627fbdfeeb7
 end
 
 
